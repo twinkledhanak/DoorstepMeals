@@ -1,0 +1,252 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000040;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F59c00;
+}
+
+a {
+font-family: acme;
+}
+
+.top_part{
+margin:0;
+padding:0;
+background-color: #000040;
+font-family:antsypan;
+font-weight:lighter;
+font-size:180%;
+}
+
+
+.active{
+ background-color: #F59c00;
+}
+
+head{
+margin:0;
+padding:0;
+}
+
+html,body{
+margin:0;
+padding:0;
+}
+
+
+.h1_top{
+margin:0;
+padding-top:40px;
+padding-bottom:5px;
+color: #F59c00;
+font-size:310%;
+font-weight:lighter;
+margin-left: 3%;
+font-family: antsypan;
+}
+
+@font-face {
+    font-family: antsypan;
+    src: url(font1.ttf);
+}
+
+@font-face {
+    font-family: acme;
+    src: url(acme.ttf);
+}
+
+
+input {
+width: 75%;
+    padding: 8px 8px;
+    margin-bottom: 15px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+width: 75%;
+    padding: 8px 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+*:focus {
+outline: none;
+} 
+
+input[type=text], input[type=email], textarea{
+    width: 50%;
+    padding: 7px 5px;
+    margin-top: 12px;
+	margin-bottom: 25px;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000040;
+    border-radius: 2px;
+   -webkit-transition: width 2s ease;
+   -moz-transition: width 2s ease;
+   transition: width 2s ease;
+}
+
+input[type=text]:focus, input[type=email]:focus,textarea:focus {
+    border: 2px solid #F59c00;
+	width:100%;
+}
+
+input[type=file]{
+	margin-top: 8px;
+	margin-bottom: 25px;
+}
+
+input[type=tel], input[type=date]{
+    width: 40%;
+    padding: 7px 5px;
+    margin-top: 12px;
+	margin-bottom: 25px;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000040;
+    border-radius: 2px;
+}
+
+input[type=tel]:focus, input[type=date]:focus {
+	border: 2px solid #F59c00;
+}
+
+
+div.img {
+    border: 4px solid #F59c00;
+}
+
+div.img:hover {
+    border: 4px solid #000040;
+}
+
+div.img img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color:#000040;
+    background-color: #F59c00;
+font-family:acme;
+}
+div.cuisine {
+    padding-top: 25px;
+    text-align: center;
+    color:#000040;
+    font-size:200%;
+    font-family:acme;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+
+.clearfix{
+    overflow: auto;
+    zoom:1;
+}
+.menu{
+margin:auto;
+padding-top:40px;
+padding-bottom:20px;}
+
+.parent{
+    width: 100%;
+    height: 100%;
+  	overflow:hidden;
+	position:relative;
+	margin-top:8%;
+}
+
+.layout{
+    width: calc(100%/3);
+    height: 100%;
+    position:relative;
+	float:left;
+	
+}
+
+
+fieldset { 
+	border:2px dotted #F59c00;
+	padding: 30px;
+	font-family: acme;
+	font-size: 15px;
+}
+
+legend{
+	font-size: 22px;
+	text-align: center;
+	color: #F59c00;
+	padding: 8px;
+	font-family: acme;
+}
+
+input[type=submit]{
+	
+	height: 40px;
+	font-size: 20px;
+	margin: auto;
+	border: 1px solid #F59c00;
+	border-radius: 3px;
+	background-color: #F59c00;
+	color: #ffffff;
+}
+
+
+.flow {
+margin-top: 15%;
+font-family: acme;
+color: #F59c00;
+text-shadow: 1px 1px  #000040;
+}
+
+.desc{
+color: #000040;
+font-family: acme;
+font-weight: 100;
+}
+

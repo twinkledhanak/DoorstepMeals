@@ -1,0 +1,7 @@
+<html>
+<%@ page language="java" %>
+<B>Hello world!</B>
+<% 
+out.println("Hello DJSCE"); 
+%>
+</html>

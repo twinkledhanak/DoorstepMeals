@@ -1,0 +1,138 @@
+<html>
+<head>
+
+<title>Doorstep Meals-home</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="icon" href="icon.png">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script language="Javascript" type="text/javascript"> 
+var counter = 1;
+var limit = 3;
+function addInput(divName){
+          var newdiv = document.createElement('div');
+          
+          var name_food=document.getElementById("Product_name").innerHTML;
+          var cost_food=document.getElementById("Cost").innerHTML;
+       
+
+
+          newdiv.innerHTML =  "<div >"+(counter + 1) + " "+name_food+" "+cost_food+"</div>";
+          document.getElementById("cd-cart-items").appendChild(newdiv);
+          counter++;
+     
+}
+</script>
+</head>
+<body>
+<div class="top_part" >
+<h1 class="h1_top">Doorstep Meals</h1>
+<ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="ordering.html">Ordering</a></li>
+  <li><a href="offers.html">Offers</a></li>
+  <li><a href="hire.html">We're Hiring</a></li>
+
+  <li><a  id="cd-cart-trigger" href="#cd-cart"><img  style="width:50px;height:40px;"src="cart-icon.png" alt="YUMMY"></a></li>
+  <li style="float:right"><a class="active" href="index.html" >Sign In</a></li>
+</ul>
+</div>    
+
+<div class="cuisine">Our Cuisines..</div>
+
+<div class="menu">
+<a href="chinese.html">
+<span>
+<div class="responsive">
+  <div class="img">
+    
+      <img src="chinese.jpg" alt="Food" >
+  
+    <div class="desc">Chinese</div>
+  </div>
+</div>
+</span>
+</a>
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Continental</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Italian</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Fast Food</div>
+  </div>
+</div>
+
+</div>
+
+<div class="clearfix"></div>
+
+
+<div class="menu">
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Soups & Salads</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Maharashtrian</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    
+      <img src="sample1.jpg" alt="Food" >
+  
+    <div class="desc">Gujrati</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="img">
+    
+      <img src="dessert.png" alt="Food" >
+  
+    <div class="desc">Desserts</div>
+  </div>
+</div>
+
+</div>
+
+<div class="clearfix"></div>
+
+
+
+
+</body>
+</html>

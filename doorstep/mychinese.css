@@ -1,0 +1,126 @@
+div.smallplacard {
+  background: url("food1.jpg") repeat;
+  background-size: cover;
+  border: 2px solid #F59c00;
+}
+
+div.transbox {
+  margin: 40px;
+  opacity:0.8;
+  text-align:center;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight:thickeer;
+  font-family:acme;
+  color: #ffffff;
+}
+
+
+
+.placard:hover {
+    box-shadow: 0px 0px 8px 8px #DFDFDF;
+}
+
+@font-face {
+    font-family: acme;
+    src: url(acme.ttf);
+}
+
+
+.placard{
+margin:auto;
+height:200px;
+width:85%;
+float:left;
+border-radius: 20px;
+margin:20px;
+ box-shadow: 5px 5px #000040;
+background-color:#f2f2f2;
+}
+
+
+.class30{
+
+width:29%;
+float:left;
+margin-right:20px;
+margin-left:20px;
+}
+
+
+.food_icon{
+border-radius: 20px 0px 0px 20px;
+margin:0;
+height:200px;
+width:225px;
+float:left;
+}
+
+
+.ingredients{
+float:right;
+margin:15px;
+width:20px;height:20px;
+}
+
+.button {
+    background-color: #F59c00;
+    border: none;
+    width:15%;
+    color:ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:thicker;
+    float:left;
+    cursor: pointer;
+    border-radius:5px;
+    font-family:acme;
+}
+.button:hover{
+    background-color: #000040;
+    
+}
+
+.class65{
+width:65%;
+float:left;
+
+}
+
+
+.placard_desc{
+padding:15px 10px;
+float:left;
+font-family:acme;
+background-color:#f2f2f2;
+width:460px;
+}
+
+
+h5{
+
+margin:0;
+font-weight:lighter;
+padding:0;
+float:left;
+}
+
+h4{
+
+margin:0;
+font-weight:lighter;
+padding:0;
+
+}
+
+h3{
+color:#F59C00;
+margin:0;
+font-weight:thicker;
+padding:0;
+font-size:150%;
+}
